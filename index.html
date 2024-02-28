@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Iniciar Sesión</title>
+  </head>
+  <body>
+        
+    <div class="container one" id="contenedor">
+      <div class="marker two">
+        <img src="imagenes/winsoftar5copy.jpg" alt="Logo de la empresa Winsoftar" width="250">
+        <main>
+          <h1>Iniciar sesión</h1>
+          <p>¿Es tu primera vez? <a href="#" target="_blank" rel="noopener noreferrer">Registrate</a>
+          </p>
+
+          <form method="post" action="#">
+              <label class="two" for="email"><input required id="email" placeholder="Correo electrónico" type="email">
+              </label><br>
+
+              <label for="password" class="three">
+                <input pattern="[a-z0-5]{8,}" required id="password" placeholder=" Contraseña" type="password">
+              </label><br>
+              
+              <p><a href="#" target="_blank" rel="noopener noreferrer">¿Olvidaste tu contraseña?</a>
+              </p><br>
+
+              <input class="one" type="submit" value="Ingresar">
+          </form>
+        </main>
+      </div>
+    </div>
+    <div class="Salir">
+    <a href="#" target="_blank" rel="noopener noreferrer"><button type="submit" class="forgot-button"><box-icon type='solid'
+            name='user-x'></box-icon>X<p>Salir</p></a>
+      </button>
+    </div>
+  </body>
+</html>

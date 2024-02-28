@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #a2edf7;
+  display: flex;
+  height: 50vh;
+}
+
+#contenedor{
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 90%);
+  margin: 10% 5% 10% 40%;
+  width: 400px;
+  height: 500px;
+  box-shadow: 1px 1px 5px 2px black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+.marker{
+  width: 300px;
+  height: 25px;
+  background-color: white;
+  margin: auto;
+}
+
+.one{
+  background-color: #30e3ca;
+  text-align: center;
+  border-left: 20%;
+}
+ 
+.three{
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  display: inline-block;
+  line-height: 3;
+}
+
+p{
+  text-align: center;
+}
+
+.forgot-button{
+  background-color: #a2edf7;
+  border: none;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-top: 10%;
+  }
+.forgot-button p:hover{
+  color: rgb(82, 80, 80);
+  font-size: 15px;
+  
+}
+.Salir{
+  margin: 10% 5% 10% 1%;
+  text-decoration: none;
+}
+.forgot-button p{
+  font-size: 15px;
+  color: #a2edf7;
+  margin: 0%;
+  text-decoration: none;
+}
